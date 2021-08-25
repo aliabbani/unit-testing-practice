@@ -1,4 +1,4 @@
-const stringLength = require('./order-total.js');
+const stringLength = require('./task1.js');
 
 test('When type a string, should return string length', () => {
   expect(stringLength('ali')).toBe(3);
