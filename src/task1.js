@@ -5,6 +5,5 @@ function stringLength(str) {
   }
   throw new Error('The string should be at least 1 character long and not more than 10 characters');
 }
-// expand your function to make it check if the string is at least 1 character long
-// and not longer than 10 characters. Throw errors if those conditions are not met.
+
 module.exports = stringLength;
